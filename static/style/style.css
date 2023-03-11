@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: helvetica neue, Helvetica, Arial, sans-serif;
+   min-width: 950px;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    font-size: 1em;
+    min-height: 45px;
+}
+
+
+.header-panel {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+header a {
+    color: #909090;
+    margin: 10px;
+}
+
+header a:hover {
+    color: white;
+
+}
+
+.logining {
+    display: flex;
+
+    align-items: center;
+    margin-left: auto
+}
+
+.sign-in:hover {
+    color: white;
+}
+
+.sign-in:hover span {
+    color: rgb(151, 211, 81);
+}
+
+.sign-in span {
+    font-size: 12px;
+}
+
+.logining img {
+    height: 34px;
+    border-radius: 2px;
+    margin: 10px;
+}
+
+.logining .sun {
+    height: 34px;
+    margin: 10px;
+}
+
+.logining p {
+    text-align: right;
+    color: #909090;
+}
+
+
+.headermenu {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 0px 24px 0px;
+    vertical-align: middle;
+
+}
+
+.logomenu {
+    display: inline-block;
+    width: 59%;
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+
+.logomenu a {
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    background-color: #8bc34a;
+    padding: 5px;
+
+}
+
+.logomenu a:hover {
+    background-color: #a4db67;
+
+}
+
+.logomenu .bluetext {
+    background-color: rgb(14 172 221);
+}
+
+.logomenu .bluetext:hover {
+    background-color: rgb(50, 188, 229);
+
+}
+
+.header-logo {
+    display: inline-block;
+    width: 40%;
+
+}
+
+.logo {
+    font-size: 34px;
+
+}
+
+.logodiv {
+    display: inline-block;
+    color: black;
+}
+
+.logodiv #org {
+    text-align: right;
+    font-size: 14px;
+}
+
+.logodiv span {
+    color: #7cae43;
+}
+
+.header-logo:hover span {
+    color: rgb(14, 187, 240);
+}
+
+.location-bg {
+    background-color: #8bc34a;
+    height: 45px;
+    border-top: #71a114 1px solid;
+    width: 100%;
+}
+
+.location-bg-container {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+    align-items: center;
+    height: 45px;
+    margin-inline: auto;
+}
+
+.location-bg-container img {
+
+    height: 20px;
+
+}
+
+
+
+.main {
+    max-width: 950px;
+    margin-inline: auto;
+}
+
+.newinsite {
+    height: 50px;
+    vertical-align: middle;
+
+
+
+}
+
+.newinsite p {
+    display: inline-block;
+    width: 49%;
+    height: 50px;
+    padding-top: 15px;
+}
+
+
+.newinsite p:nth-child(2) {
+    text-align: right;
+}
+
+.newgame {
+    text-align: center;
+}
+
+
+.newgame p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.maincontent {
+    display: inline-block;
+    width: 77%;
+}
+
+.rightbar {
+    float: right;
+    width: 22%;
+
+}
+
+.newgame img {
+    width: 100%;
+}
+
+.backborder {
+    padding: 5px;
+}
+
+.backborder:hover {
+    background-color: #67db9f9c;
+}
+
+
+
+.gamecatalog a {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    width: 20%;
+    margin-right: 10px;
+}
+
+
+.gamecatalog img {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.gamecatalog p {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+    color: black;
+}
+
+
+.rightbar-menu a {
+    display: block;
+    border-radius: 5px;
+    color: white;
+    background-color: #8bc34a;
+    padding: 5px 20px 5px 20px;
+    margin: 5px 0px 5px 0px;
+}
+
+.rightbar-menu a:hover {
+    background-color: #a4db67;
+
+}
+
+.rightbar-menu p {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+.rightbar-menu a:nth-child(6) {
+    background-color: rgb(14 172 221);
+
+}
+
+.rightbar-menu a:nth-child(6):hover {
+    background-color: rgb(50, 188, 229);
+
+}
+
+/* 
+@media (max-width: 950px) {
+
+    nav {
+        display: none;
+    }
+
+    .maincontent {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .rightbar {
+        display: none;
+    }
+    
+    .maincontent {
+        display: inline-block;
+        width: 950px;}
+
+    .gamecatalog a {
+        display: inline-block;
+        vertical-align: top;
+        max-width: 20%;
+        margin-right: 5px;
+    }
+    }
+    
+
+
+@media (max-width: 590px) {
+
+    .maincontent {
+        display: block;
+        width: 400px;
+    }
+    
+    .gamecatalog a {
+        display: block;
+        width: 100%;
+        margin-right: 5px;
+    }
+} */
