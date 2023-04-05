@@ -12,11 +12,9 @@ text-decoration: none;
 .container {
     margin: 0px auto;
     max-width: 1100px;
-    /* min-width: 970px; */
 }
 
-.header {
-    /* min-width: 970px; */
+.header {   
     background-image: url(../images/bg.jpg);
     height: 800px;
     background-repeat: no-repeat;
@@ -32,7 +30,7 @@ text-decoration: none;
 }
 
 .nav-item {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: 700;
     font-size: 14px;
@@ -296,7 +294,6 @@ text-decoration: none;
 
 
 .table-order {
-    /* min-width: 970px; */
     margin-top: 122px;
     height: 357px;
     background-image: url(../images/table-order-bg.jpg);
@@ -392,7 +389,6 @@ text-decoration: none;
 }
 
 .our-menu{
-    /* min-width: 970px; */
     height: 1034px;
     background-image: url(../images/our-menu-bg.jpg);
     background-repeat: no-repeat;
@@ -585,7 +581,6 @@ gap: 30px;
 }
 
 .footer{
-    /* min-width: 970px; */
     height: 732px;
     background-image: url(../images/footer-bg.jpg);
     background-position: center;
