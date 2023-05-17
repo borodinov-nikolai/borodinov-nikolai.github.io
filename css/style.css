@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 }
 
 .container {
@@ -10,10 +11,7 @@
 }
 
 
-.header {
-    width: 100%;
-    height: 222px;
-}
+
 
 .header__up {
     height: 80px;
@@ -47,8 +45,32 @@
     margin-left: 8px;
 }
 
+.header__up-menu {
+    display: flex;
+    gap: 18px;
+}
+
 .header__up-menu-item {
     font-size: 24px;
     color: white;                                           
-    
+}
+
+.header__up-number {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.header__up-number-text {
+    color: white;
+}
+
+
+
+.header__down-menu {
+    height: 80px;
+    display: flex;
+    font-size: 32px;
+    justify-content: space-between;
+    align-items: center;
 }
