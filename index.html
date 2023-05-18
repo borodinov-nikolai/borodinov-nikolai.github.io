@@ -44,11 +44,54 @@
         <div class="header__down">
             <div class="container">
                 <ul class="header__down-menu">
-                    <li class="header__down-menu-phones">Сматрфоны</li>
-                    <li class="header__down-menu-tabs">Планшеты</li>
-                    <li class="header__down-menu-noutbooks">Ноутбуки</li>
-                    <li class="header__down-menu-tvs">Телевизоры</li>
-                    <li class="header__down-menu-consoles">Игровые консоли</li>
+                    <li data-smart class="header__down-menu-item header__down-menu-phones">Сматрфоны
+                        <ul class="header__down-submenu hidden" >
+                            <li>Xiaomi</li>
+                            <li>Honor</li>
+                            <li>Samsung</li>
+                            <li>Apple</li>
+                            <li>Huawei</li>
+                            <li>Realme</li>
+                            <li>OnePlus</li>
+                            <li>Google</li>
+                        </ul>
+                    </li>
+                    <li class="header__down-menu-item header__down-menu-tabs">Планшеты
+                        <ul class="header__down-submenu hidden">
+                            <li>Apple</li>
+                            <li>Xiaomi</li>
+                            <li>Samsung</li>
+                            <li>Huawei</li>
+                        </ul>
+                    </li>
+                    <li class="header__down-menu-item header__down-menu-noutbooks">Ноутбуки
+                        <ul class="header__down-submenu hidden" >
+                            <li>MacBook Air</li>
+                            <li>MacBook Pro</li>
+                            <li>Xiaomi</li>
+                            <li>Huawei</li>
+                            <li>Honor</li>
+                            <li>Asus</li>
+                        </ul>
+                    </li>
+                    <li class="header__down-menu-item header__down-menu-tvs">Телевизоры
+                        <ul class="header__down-submenu hidden" >
+                            <li>TCL</li>
+                            <li>LG</li>
+                            <li>Xiaomi</li>
+                            <li>Huawei</li>
+                            <li>ony</li>
+                            <li>Samsung</li>
+                        </ul>
+                    </li>
+                    <li class="header__down-menu-item header__down-menu-consoles">Игровые консоли
+                        <ul class="header__down-submenu hidden" >
+                            <li>Sony</li>
+                            <li>Nintendo</li>
+                            <li>Microsoft</li>
+                            
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -56,7 +99,7 @@
     </header>
 
     <section class="slider">
-        <h2 class="slider__title">Новинки!</h1>
+        <!-- <h2 class="slider__title">Новинки!</h1> -->
 
             <div class="slider__holder">
                 <div class="slider__body slider__body-transition">
@@ -166,7 +209,7 @@
 
 
 
-
+    <script src="js/header-menu.js" ></script>
     <script src="js/slider.js"></script>
     <script src="js/animate.js"></script>
     <script src="js/app.js"></script>

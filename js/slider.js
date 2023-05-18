@@ -10,7 +10,7 @@ slider.style.marginLeft = 0;
 
 
 
-setInterval(function sliderMove() {
+setInterval(()=> {
 if (slider.style.marginLeft == '-3600px') {
     slider.style.marginLeft = '0';
 } else {
@@ -21,6 +21,5 @@ if (slider.style.marginLeft == '-3600px') {
 
 
 
-sliderMove();
 
 
