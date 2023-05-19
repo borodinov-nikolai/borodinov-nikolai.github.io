@@ -151,7 +151,7 @@ body {
     width: max-content;
     margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
 }
 
 .slider__title {
@@ -242,12 +242,12 @@ body {
 
 
 .news {
-    padding-top: 250px;
+    padding-top: 120px;
     padding-bottom: 311px;
 }
 
 .news__title {
-    font-size: 48px;
+    font-size: 32px;
     text-align: center;
 }
 
