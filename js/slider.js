@@ -16,7 +16,7 @@ if (slider.style.marginLeft == '-3600px') {
 } else {
     slider.style.marginLeft = parseInt(slider.style.marginLeft) - 1200 + 'px';
 }  
- },4000);
+ },5000);
 
 
 

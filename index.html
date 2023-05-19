@@ -15,12 +15,14 @@
 
             <div class="container">
                 <div class="header__up-inner">
-                    <div class="header__up-logo">
-                        <div class="header__up-logo-img-holder">
-                            <img src="images/pngegg.png" width="26px" height="30px" alt="" class="header__up-logo-img">
+                    <a href="" class="header__up-logo-href">
+                        <div class="header__up-logo">
+                            <div class="header__up-logo-img-holder">
+                                <img src="images/pngegg.png" width="26px" height="30px" alt="" class="header__up-logo-img">
+                            </div>
+                            <p class="header__up-logo-text">Техно-Маркет</p>
                         </div>
-                        <p class="header__up-logo-text">Техно-Маркет</p>
-                    </div>
+                    </a>
                     <div class="header__up-menu">
                         <a href="" class="header__up-menu-item header__up-menu-catalog">Каталог</a>
                         <a href="" class="header__up-menu-item header__up-menu-aboutUs">О нас</a>
@@ -46,7 +48,9 @@
                 <ul class="header__down-menu">
                     <li data-smart class="header__down-menu-item header__down-menu-phones">Сматрфоны
                         <ul class="header__down-submenu none" >
-                            <li>Xiaomi</li>
+                            <a href="phones.html">
+                                <li>Xiaomi</li>
+                            </a>
                             <li>Honor</li>
                             <li>Samsung</li>
                             <li>Apple</li>
@@ -99,17 +103,17 @@
     </header>
 
     <section class="slider">
-        <!-- <h2 class="slider__title">Новинки!</h1> -->
+        <h2 class="slider__title">Новинки!</h1>
 
             <div class="slider__holder">
                 <div class="slider__body slider__body-transition">
-                    <img src="images/d562cdd6-1085-4d45-a86d-8f4a3cc8db72_large.png" alt="" class="slider__img slider__img1">
+                    <img src="images\Samsung-galaxy-s23-ultra.jpg" alt="" class="slider__img slider__img1">
                     <img src="images\hero_intro_endframe__e6khcva4hkeq_large.jpg" alt="" class="slider__img slider__img2">
                     <img src="images\maxresdefault.jpg" alt="" class="slider__img slider__img3">
-                    <img src="images\Samsung-galaxy-s23-ultra.jpg" alt="" class="slider__img slider__img4">
+                    <img src="images/d562cdd6-1085-4d45-a86d-8f4a3cc8db72_large.png" alt="" class="slider__img slider__img4">
                 </div>
             </div>
-
+            
             <div class="slider__radio">
                 <input type="radio" name="slider__radio-btn" class="slider__radio-btn">
                 <input type="radio" name="slider__radio-btn" class="slider__radio-btn">
@@ -146,7 +150,7 @@
         <div class="container">
             <h2 class="news__title">Новости</h2>
             <div class="news__items-holder">
-                <div class="news__item news__item1">
+                <div class="news__item news__item1" data-news-item="1">
                     <div class="news__text-holder">
                         <h3 class="news__item-title">Google исправила проблему перегрева и быстрого разряда Pixel 6 и 7</h3>
                         <p class="news__item-text">На днях мы писали о том, что Google снова умудрилась "поломать" свои
@@ -157,7 +161,7 @@
                     <img src="images\obzor_pixel_6_pro_picture12_0_resize.jpg" alt="" class="news__item-img">
 
                 </div>
-                <div class="news__item news__item1">
+                <div class="news__item news__item2" data-news-item="2">
                     
                     <img src="images\ogranichennaa_seria_realme_gt_neo_5_se_v_stile_transformerov_na_podhode_picture2_0_resize.jpg"
                     alt="" class="news__item-img">
@@ -170,7 +174,7 @@
                     </div>
 
                 </div>
-                <div class="news__item news__item1">
+                <div class="news__item news__item3" data-news-item="3">
                     <div class="news__text-holder">
                         <h3 class="news__item-title">MediaTek готовит чипсет с "графикой" NVIDIA, но это не Dimensity 9300
                         </h3>
@@ -182,7 +186,7 @@
                         alt="" class="news__item-img">
 
                 </div>
-                <div class="news__item news__item1">
+                <div class="news__item news__item4" data-news-item="4">
                     
                     <img src="images\honor_90_pokazhut_do_konca_maa_pervyj_vzglad_na_oficialnom_tizere_picture2_0_resize.jpg"
                     alt="" class="news__item-img">
@@ -215,7 +219,7 @@
             </div>
     </footer>
 
-
+    <script src="js/newsScrollAnimation.js" ></script>
     <script src="js/hitsScrollAnimation.js" ></script>
     <script src="js/headerMenu.js"></script>
     <script src="js/slider.js"></script>
