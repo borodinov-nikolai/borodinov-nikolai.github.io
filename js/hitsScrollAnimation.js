@@ -4,8 +4,8 @@
 let leftImgHolder = document.querySelector('.hits__images-left-holder');
 let rightImgHolder = document.querySelector('.hits__images-right-holder');
 
- leftImgHolder.style.marginLeft = '-800px';
-            rightImgHolder.style.marginLeft = '1600px';
+ leftImgHolder.style.marginLeft = '-200px';
+            rightImgHolder.style.marginLeft = '400px';
            
 
     window.addEventListener('scroll', function(event) {
