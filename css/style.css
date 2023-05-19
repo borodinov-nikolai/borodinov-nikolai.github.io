@@ -190,7 +190,7 @@ body {
 
 .hits__images-left-holder {
     margin-left: 1px;
-    transition: margin-left 3s;
+    transition: margin-left 1s;
 }
 
 .hits__images-left-holder div{
@@ -201,7 +201,7 @@ body {
 
 .hits__images-right-holder {
     margin-left: 1px;
-    transition: margin-left 3s;
+    transition: margin-left 1s;
 
 }
 
