@@ -45,7 +45,7 @@
             <div class="container">
                 <ul class="header__down-menu">
                     <li data-smart class="header__down-menu-item header__down-menu-phones">Сматрфоны
-                        <ul class="header__down-submenu hidden" >
+                        <ul class="header__down-submenu none" >
                             <li>Xiaomi</li>
                             <li>Honor</li>
                             <li>Samsung</li>
@@ -57,7 +57,7 @@
                         </ul>
                     </li>
                     <li class="header__down-menu-item header__down-menu-tabs">Планшеты
-                        <ul class="header__down-submenu hidden">
+                        <ul class="header__down-submenu none">
                             <li>Apple</li>
                             <li>Xiaomi</li>
                             <li>Samsung</li>
@@ -65,7 +65,7 @@
                         </ul>
                     </li>
                     <li class="header__down-menu-item header__down-menu-noutbooks">Ноутбуки
-                        <ul class="header__down-submenu hidden" >
+                        <ul class="header__down-submenu none" >
                             <li>MacBook Air</li>
                             <li>MacBook Pro</li>
                             <li>Xiaomi</li>
@@ -75,7 +75,7 @@
                         </ul>
                     </li>
                     <li class="header__down-menu-item header__down-menu-tvs">Телевизоры
-                        <ul class="header__down-submenu hidden" >
+                        <ul class="header__down-submenu none" >
                             <li>TCL</li>
                             <li>LG</li>
                             <li>Xiaomi</li>
@@ -85,7 +85,7 @@
                         </ul>
                     </li>
                     <li class="header__down-menu-item header__down-menu-consoles">Игровые консоли
-                        <ul class="header__down-submenu hidden" >
+                        <ul class="header__down-submenu none" >
                             <li>Sony</li>
                             <li>Nintendo</li>
                             <li>Microsoft</li>
@@ -123,13 +123,21 @@
     <section class="hits">
         <div class="container">
             <h2 class="hits__title">Хиты продаж!</h2>
-            <div class="hits__grid">
-                <img src="images\xiaomi-book-pro-14-2022-1.jpg" alt="" class="hits__img hits__img1">
-                <img src="images\756570375745373.jpg" alt="" class="hits__img hits__img2">
-                <img src="images\csm_teaser_87a40a99d2.jpg" alt="" class="hits__img hits__img3">
-                <img src="images\smartfon-poco-f4-1.jpg" alt="" class="hits__img hits__img4">
-                <img src="images\cosollelele.jpg" alt="" class="hits__img hits__img5">
-                <img src="images\ipad-pro-m1-2021-cnet-2021-037.jpg" alt="" class="hits__img hits__img6">
+            <div class="hits__images-main-holder">
+                <div class="hits__images-left-holder">
+                    <img src="images\xiaomi-book-pro-14-2022-1.jpg" alt="" data-hitsImgLeft class="unvisible hits__img hits__img1">
+                    <div>
+                        <img src="images\smartfon-poco-f4-1.jpg" alt="" data-hitsImgLeft class="hits__img hits__img2">
+                        <img src="images\cosollelele.jpg" alt="" data-hitsImgLeft class="hits__img hits__img3">
+                    </div>
+                </div>
+                <div class="hits__images-right-holder">
+                    <div>
+                        <img src="images\756570375745373.jpg" alt="" data-hitsImgRight class="hits__img hits__img4">
+                        <img src="images\csm_teaser_87a40a99d2.jpg" alt=""  class="hits__img hits__img5">
+                    </div>
+                    <img src="images\ipad-pro-m1-2021-cnet-2021-037.jpg" alt="" data-hitsImgRight class="hits__img hits__img6">
+                </div>
             </div>
         </div>
     </section>
@@ -208,8 +216,8 @@
     </footer>
 
 
-
-    <script src="js/header-menu.js" ></script>
+    <script src="js/hitsScrollAnimation.js" ></script>
+    <script src="js/headerMenu.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/animate.js"></script>
     <script src="js/app.js"></script>
