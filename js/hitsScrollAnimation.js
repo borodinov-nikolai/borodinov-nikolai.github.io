@@ -22,8 +22,8 @@ let rightImgHolder = document.querySelector('.hits__images-right-holder');
         } else {
             leftImgHolder.style.transition = '';
             rightImgHolder.style.transition = '';
-            leftImgHolder.style.marginLeft = '-800px';
-            rightImgHolder.style.marginLeft = '1600px';
+            leftImgHolder.style.marginLeft = '-200px';
+            rightImgHolder.style.marginLeft = '400px';
 
         }
     })
