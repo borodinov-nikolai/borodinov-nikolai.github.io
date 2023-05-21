@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/phones.css">
+    <link rel="stylesheet" href="css\cart.css">
     <title>Tehno-Market</title>
 </head>
 
@@ -34,9 +36,9 @@
                         <div class="header__up-number-text">+79615254780</div>
                     </div>
                     <div class="header__up-menu-cart">
-                        <img src="images/shopping_cart.svg" width="39px" height="39px" alt=""
+                        <img data-cart src="images/shopping_cart.svg" width="39px" height="39px" alt=""
                             class="header__up-menu-cart-img">
-                    </div>
+                            <div data-cart class="header__up-menu-cart-counter none">0</div></div>
                 </div>
             </div>
 
@@ -49,7 +51,7 @@
                     <li data-smart class="header__down-menu-item header__down-menu-phones">Сматрфоны
                         <ul class="header__down-submenu none" >
                             <a href="phones.html">
-                                <li>Xiaomi</li>
+                                <li>Poco</li>
                             </a>
                             <li>Honor</li>
                             <li>Samsung</li>
@@ -58,6 +60,7 @@
                             <li>Realme</li>
                             <li>OnePlus</li>
                             <li>Google</li>
+                            <li>Xiaomi</li>
                         </ul>
                     </li>
                     <li class="header__down-menu-item header__down-menu-tabs">Планшеты
@@ -219,12 +222,30 @@
             </div>
     </footer>
 
-    <script src="js/newsScrollAnimation.js" ></script>
-    <script src="js/hitsScrollAnimation.js" ></script>
+
+    
+    <div class="modalWindow__cart none">
+        <div class="fade">
+            <div class="modalWindow__cart-inner">
+                <div class="modalWindow__cart-itemsHolder">
+                    
+                </div>
+                <button class="modalWindow__cart-inner-closeBtn" data-cart-close>X</button>
+                <button class="modalWindow__cart-inner-buyBtn">Заказать</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="js/cart.js"></script>
+    <!-- <script src="js/newsScrollAnimation.js" ></script> -->
+    <!-- <script src="js/hitsScrollAnimation.js" ></script> -->
     <script src="js/headerMenu.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/animate.js"></script>
     <script src="js/app.js"></script>
+
+
 
 </body>
 

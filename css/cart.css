@@ -1,0 +1,148 @@
+.modalWindow__cart-inner {
+    position: relative;
+    border-radius: 15px;
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 80%;
+    background: white;
+    transform: translateX(-50%) translateY(-50%);
+}   
+
+
+.modalWindow__cart-itemsHolder {
+    margin: 50px;
+}
+
+
+.modalWindow__cart-inner-closeBtn {
+    background: rgb(222, 221, 221);
+    border-radius: 50%;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 24px;;
+    top: 10px;
+    right: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.modalWindow__cart-inner-closeBtn:hover {
+    background: rgb(184, 184, 184);
+    transition: background 0.2s;
+}
+
+
+
+
+.modalWindow__cart-item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    border-bottom: 1px solid gray;
+}
+
+.modalWindow__cart-item-img {
+    width: 80px;
+    height: 80px;
+}
+
+.modalWindow__cart-item-price {
+    margin-left: 50%;
+}
+
+.modalWindow__cart-item-description {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.modalWindow__cart-inner-buyBtn {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 15px;
+    font-size: 24px;
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translatex(-50%)
+}
+
+.modalWindow__cart-itemsHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modalWindow__cart-inputs-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalWindow__cart-inner-buyBtn:hover {
+    background: rgb(217, 216, 216);
+    transition: background 0.2s;
+}
+
+.modalWindow__cart-inputs {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: end;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.modalWindow__cart-inputs-text {
+    font-size: 28px;
+    margin-top: 100px;
+    
+}
+
+.modalWindow__cart-input-holder {
+    margin-top: 20px;
+    display: flex;
+    font-size: 32px;
+    gap: 20px;
+}
+
+.modalWindow__cart-input {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.modalWindow__cart-input-btns-holder {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.modalWindow__cart-input-btns-holder button {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    border-style: none;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.modalWindow__cart-input-btns-holder button:hover {
+    background: rgb(217, 216, 216);
+    transition: background 0.2s;
+
+}
+
+.modalWindow__cart-confirmText {
+    margin-top: 28%;
+    text-align: center;
+    font-size: 24px;
+}
